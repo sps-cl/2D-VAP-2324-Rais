@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samostatná práce</title>
+    <link rel="stylesheet" href="styly.css">
+    <link rel="icon" href="Logo.png">
+</head>
+<body>
+    <h1> Vojtěch Rais</h1>
+    <p> &nbsp; Lorem ipsum dolor sit amet, consectetur <em>adipisicing elit.</em> 
+        <br> Modi velit ea hic vel pariatur, expedita quos adipisci, <strong>reprehenderit</strong>, 
+        <br> consectetur <sub>voluptate vero alias</sub> mollitia tempore <sup>impedit vitae ratione</sup> doloremque minima voluptatibus!
+        <ol type="i">
+            <li> Pátek</li>
+            <li> Sobota</li>
+            <li> Neděle</li>
+        </ol>
+        <ul>
+            <li> Březen</li>
+            <li> Červenec</li>
+            <li> Srpen</li>
+        </ul>
+    </p>
+    <Form action="data.html" method="get">
+        <table>
+            <thread>
+                <tr>
+                    <th colspan="2">Registrace</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <th> <label for="jmeno">jméno: </label> </th>
+                    <th>
+                         <input id="jmeno" type="text" name="Jmeno" required placeholder="Jmeno"> </th>
+                </tr>
+                <tr>
+                    <th> <label for="heslo">Heslo: </label></th>
+                    <th> <input id="heslo" type="text" name="Heslo" required placeholder="Heslo"> </th>
+                </tr>
+                <tr>
+                    <th><label for="vek">Věk: </label></th>
+                    <th> <input id="vek" type="number" name="Vek"  required placeholder="Vek" required min="0" max="150" style="width: 390px;"> </th>
+                </tr>
+                <tr>
+                    <th><label for="email">Email: </label></th>
+                    <th> <input id="emai" type="email" name="Email" required placeholder="Jmeno@seznam.cz"> </th>
+                </tr>
+                <tr>
+                    <th><label for="student">Student: </label></th>
+                    <th> <input id="student" type="checkbox" name="Student" placeholder="Student" value="true"> </th>
+                </tr>
+                <tr>
+                    <th><label for="pohlavi">Pohlaví: </label></th>
+                    <div id="pohlavi">
+                        <th><label for="muz">Muž</label>
+                            <input id="muz" type="radio" name="Pohlaví" value="muz" >
+                            <label for="zena">Žena</label>
+                            <input id="zena" type="radio" name="Pohlaví" value="zena">
+                        </th> 
+                    </div>
+                </tr>
+                <tr>
+                    <th> <label for="vzdelani">Vzdělání: </label> </th>
+                    <th><select name="Vzdelani" id="vzdelani">
+                        <option value="Mag">Magisterské</option>
+                        <option value="Bak">Bakalářské</option>
+                        <option value="Dok">Doktorské</option>
+                        </select>
+                    </th>
+                    
+                </tr>
+    
+    
+            </tbody>           
+    </Form>
+    
+
+
+
+    </table>
+    <nav>
+        <a href="index.html"> Domů </a>
+        <a href="obrazek.html"> Obrázek </a>
+    </nav>
+    
+    <br>
+    <div><input type="submit" value="Registrovat"></div>
+</body>
+</html>
