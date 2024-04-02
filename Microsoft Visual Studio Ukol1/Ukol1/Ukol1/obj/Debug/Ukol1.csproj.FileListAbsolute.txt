@@ -1,0 +1,6 @@
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\bin\Debug\Ukol1.exe.config
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\bin\Debug\Ukol1.exe
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\bin\Debug\Ukol1.pdb
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\obj\Debug\Ukol1.exe
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\obj\Debug\Ukol1.pdb
+R:\VAP\2D-VAP-2324-Rais\Microsoft Visual Studio Ukol1\Ukol1\Ukol1\obj\Debug\Ukol1.csprojResolveAssemblyReference.cache
