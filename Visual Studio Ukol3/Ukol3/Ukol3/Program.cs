@@ -15,7 +15,7 @@ namespace Ukol3
 
             while (true)
             {
-                Console.Write("Zadej příkaz: ");
+                Console.Write("Zadej 1 z příkazů => 1) Pridat:  2) Zpet  3) Vpred");
                 string input = Console.ReadLine();
 
                 if (input.StartsWith("Pridat:"))
